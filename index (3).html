@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Mexico - Family-Owned Mexican Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #d9534f;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            margin: 1rem 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #d9534f;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .section {
+            margin: 2rem 0;
+        }
+        .menu-item {
+            margin-bottom: 1rem;
+        }
+        footer {
+            background-color: #d9534f;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .review-form input, .review-form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .review-form button {
+            background-color: #d9534f;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Mexico</h1>
+        <p>Family-Owned Mexican Restaurant</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#drinks">Drinks</a>
+        <a href="#house-specialties">House Specialties</a>
+        <a href="#fresh-healthy">Fresh and Healthy</a>
+        <a href="#desserts">Desserts</a>
+        <a href="#order">Order Online</a>
+        <a href="#reviews">Reviews</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>Welcome to Mi Mexico, a family-owned restaurant, located in Clive, Iowa.</p>
+        </section>
+
+
+    <h2>Menu</h2>
+    
+    <!-- Small Combinations Section -->
+    <div class="menu-item">
+        <h3>Small Combinations</h3>
+        <p>All combinations include Mexican rice, refried beans, and coleslaw. You may substitute whole or black beans for refried beans.</p>
+        <p><strong>Shredded beef "picadillo" is $1.00 extra on burritos and 50¢ extra on all other items.</strong></p>
+        <p><strong>Choice of beef, cheese, or chicken. Melted cheese and cheese dip are 50¢ extra on burritos and enchiladas.</strong></p>
+    </div>
+    
+    <!-- Menu Items -->
+    <div class="menu-item">
+        <h3>1 Enchilada, 1 Taco</h3>
+        <p>$10.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>1 Chile Relleno, Guacamole</h3>
+        <p>$10.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>1 Enchilada, 1 Tostada</h3>
+        <p>$10.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>Deluxe Tostada with Guacamole & Sour Cream</h3>
+        <p>$10.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>1 Burrito</h3>
+        <p>$10.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>1 Chorizo with Egg Burrito</h3>
+        <p>$10.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>3 Huevos Rancheros, 1 Chalupa</h3>
+        <p>$10.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>1 Enchilada, 1 Chile Relleno</h3>
+        <p>$10.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>Chorizo Con Huevos</h3>
+        <p>$10.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>1 Relleno, 1 Taco</h3>
+        <p>$10.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>1 Chimichanga (Red Sauce)</h3>
+        <p>$10.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>1 Avocado Tostada with Sour Cream</h3>
+        <p>$10.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>2 Enchiladas</h3>
+        <p>$10.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>2 Tacos</h3>
+        <p>$10.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>1 Enchilada, 1 Tamale</h3>
+        <p>$10.95</p>
+        <p><em>Tamale cooked with lard. Freshly made with corn masa and shredded pork, wrapped in corn husk.</em></p>
+    </div>
+
+    <!-- Large Combinations Section -->
+    <div class="menu-item">
+        <h3>Large Combinations</h3>
+        <p>All combinations include Mexican rice, refried beans, and coleslaw. You may substitute whole or black beans for refried beans.</p>
+        <p><strong>Shredded beef "picadillo" is $1.00 extra on burritos and 50¢ extra on all other items.</strong></p>
+        <p><strong>Choice of beef, cheese, or chicken. Melted cheese and cheese dip are 50¢ extra on burritos and enchiladas.</strong></p>
+    </div>
+    
+    <!-- Menu Items for Large Combinations -->
+    <div class="menu-item">
+        <h3>2 Burritos</h3>
+        <p>$9.95</p>
+        <p><em>Choice of shredded beef "picadillo," chicken, ground beef, or chorizo with egg.</em></p>
+    </div>
+    <div class="menu-item">
+        <h3>1 Enchilada, 1 Chalupa</h3>
+        <p>$11.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>2 Enchiladas, 1 Taco</h3>
+        <p>$11.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>1 Enchilada, 1 Chile Relleno, 1 Taco</h3>
+        <p>$11.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>1 Enchilada, 1 Tamale, 1 Taco</h3>
+        <p>$11.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>1 Avocado Tostada, 1 Enchilada with Sour Cream</h3>
+        <p>$11.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>1 Enchilada, 1 Chile Relleno, 1 Tamale</h3>
+        <p>$11.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>2 Tacos, 1 Enchilada</h3>
+        <p>$11.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>1 Enchilada, 1 Tamale, 1 Tostada</h3>
+        <p>$11.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>Fajita Burrito</h3>
+        <p>$11.95</p>
+        <p><em>Tender marinated beef or chicken grilled with green peppers, onions, and spices, wrapped in a flour tortilla with refried beans, topped with baked cheese, guacamole, and sour cream.</em></p>
+    </div>
+    <div class="menu-item">
+        <h3>Enchiladas Suizas</h3>
+        <p>$11.95</p>
+        <p><em>Authentic enchiladas with your choice of filling, prepared with green tomatillo sauce and topped with sour cream.</em></p>
+    </div>
+
+    <!-- Salads Section -->
+    <div class="menu-item">
+        <h3>Salads</h3>
+        <p>All salads are served with your choice of dressing.</p>
+    </div>
+    
+    <!-- Menu Items for Salads -->
+    <div class="menu-item">
+        <h3>Caesar Salad</h3>
+        <p>$6.50</p>
+        <p><em>Traditional Caesar salad with crispy croutons and unique Caesar dressing.</em></p>
+    </div>
+    <div class="menu-item">
+        <h3>Chicken Caesar Salad</h3>
+        <p>$9.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>Fajita Salad</h3>
+        <p>$10.95</p>
+        <p><em>Flour fried taco shell filled with lettuce, cheese, fajita meat (chicken, steak, or shrimp sautéed with onions and green peppers), served with guacamole, sour cream, and pico de gallo.</em></p>
+    </div>
+    <div class="menu-item">
+        <h3>Deluxe Taco Salad</h3>
+        <p>$8.95</p>
+        <p><em>Choose chicken or beef. Served with guacamole and sour cream.</em></p>
+    </div>
+
+    <!-- Sandwiches Section -->
+    <div class="menu-item">
+        <h3>Sandwiches</h3>
+    </div>
+    
+    <!-- Menu Items for Sandwiches -->
+    <div class="menu-item">
+        <h3>Hamburger</h3>
+        <p>$9.50</p>
+    </div>
+    <div class="menu-item">
+        <h3>Cheeseburger</h3>
+        <p>$9.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>French Fries</h3>
+        <p>$3.50</p>
+    </div>
+
+    <!-- Consumer Advisory Section -->
+    <div class="menu-item">
+        <h3>Consumer Advisory</h3>
+        <p>Thoroughly cooking foods of animal origin such as beef and eggs reduces the risk of foodborne illness. Individuals with certain health conditions may be at higher risk if these foods are consumed raw or undercooked. Consult your physician or public health official for further information.</p>
+    </div>
+
+</section>
+<section id="drinks" class="section">
+    
+    <h2>Drinks</h2>
+
+    <!-- Original Margarita -->
+    <div class="menu-item">
+        <h3>Original Margarita (Shaker)</h3>
+        <p>$10.50</p>
+        <p><em>Fun Fact - We use roughly over 10,000 limes a year, making our famous shaker margarita. It's made with Cointreau, tequila, fresh lime juice, and a splash of margarita mix. (Upcharge on top-shelf tequila.)</em></p>
+    </div>
+
+    <!-- Margarita Options -->
+    <div class="menu-item">
+        <h3>Regular Margarita</h3>
+        <p>$3.50</p>
+    </div>
+    <div class="menu-item">
+        <h3>Cuerbo Gold Margarita</h3>
+        <p>$5.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>Strawberry Banana Blackberry Flavored Margaritas</h3>
+        <p>$7.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>Watermelon Mango Peach Kiwi Coconut Raspberry Margarita</h3>
+        <p>$7.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>Blue Margarita</h3>
+        <p>$3.99</p>
+        <p><em>A regular margarita topped with blue curacao served on the rocks.</em></p>
+    </div>
+    <div class="menu-item">
+        <h3>Green Margarita</h3>
+        <p>$3.99</p>
+        <p><em>A regular margarita topped with melon liqueur served on the rocks.</em></p>
+    </div>
+
+    <!-- Specialty Cocktails -->
+    <div class="menu-item">
+        <h3>Killer Kool Aid</h3>
+        <p>$8.95</p>
+        <p><em>Vodka, melon liqueur, Southern Comfort, pineapple, and cranberry juice. Served on the rocks.</em></p>
+    </div>
+    <div class="menu-item">
+        <h3>Bartender's Special</h3>
+        <p>$8.95</p>
+        <p><em>A regular margarita topped with cranberry juice and Grand Marnier. Served on the rocks.</em></p>
+    </div>
+    <div class="menu-item">
+        <h3>Cadillac Margarita</h3>
+        <p>$8.95</p>
+        <p><em>A regular margarita topped with Cuervo Gold and Grand Marnier. Served on the rocks.</em></p>
+    </div>
+    <div class="menu-item">
+        <h3>Italian Margarita</h3>
+        <p>$8.95</p>
+        <p><em>A regular margarita topped with Cuervo Gold and Amaretto. Served on the rocks.</em></p>
+    </div>
+    <div class="menu-item">
+        <h3>Chambord Margarita</h3>
+        <p>$8.95</p>
+        <p><em>A regular margarita topped with Cuervo Gold, Chambord, and a splash of cranberry juice. Served on the rocks.</em></p>
+    </div>
+    <div class="menu-item">
+        <h3>Pina Colada</h3>
+        <p>$8.95</p>
+        <p><em>Light rum, pineapple, cream of coconut, and cream blended.</em></p>
+    </div>
+
+    <!-- Tequila Shots -->
+    <div class="menu-item">
+        <h3>House Tequila Shot</h3>
+        <p>$4.50</p>
+    </div>
+
+    <!-- Mexican Beers -->
+    <div class="menu-item">
+        <h3>Mexican Beers</h3>
+    </div>
+    <div class="menu-item">
+        <h3>Jimador</h3>
+        <p>$5.00</p>
+    </div>
+    <div class="menu-item">
+        <h3>Cuervo Gold</h3>
+        <p>$5.50</p>
+    </div>
+    <div class="menu-item">
+        <h3>Cuervo 1800</h3>
+        <p>$5.50</p>
+    </div>
+    <div class="menu-item">
+        <h3>Hornitos</h3>
+        <p>$5.50</p>
+    </div>
+    <div class="menu-item">
+        <h3>Conmemorativo</h3>
+        <p>$5.50</p>
+    </div>
+    <div class="menu-item">
+        <h3>Cazadores</h3>
+        <p>$6.50</p>
+    </div>
+    <div class="menu-item">
+        <h3>Tres Generaciones</h3>
+        <p>$7.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>Herradura</h3>
+        <p>$7.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>Patron Silver</h3>
+        <p>$7.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>Don Julio Blanco</h3>
+        <p>$7.95</p>
+    </div>
+
+    <!-- Beer Selections -->
+    <div class="menu-item">
+        <h3>Mexican Beers</h3>
+    </div>
+    <div class="menu-item">
+        <h3>Dos Equis Amber</h3>
+        <p>$4.25</p>
+    </div>
+    <div class="menu-item">
+        <h3>Dos Equis Lager</h3>
+        <p>$4.25</p>
+    </div>
+    <div class="menu-item">
+        <h3>Tecate</h3>
+        <p>$4.25</p>
+    </div>
+    <div class="menu-item">
+        <h3>Corona</h3>
+        <p>$4.25</p>
+    </div>
+    <div class="menu-item">
+        <h3>Corona Light</h3>
+        <p>$4.25</p>
+    </div>
+    <div class="menu-item">
+        <h3>Negra Modelo</h3>
+        <p>$4.25</p>
+    </div>
+    <div class="menu-item">
+        <h3>Pacifico</h3>
+        <p>$4.25</p>
+    </div>
+    <div class="menu-item">
+        <h3>Modelo Special</h3>
+        <p>$4.25</p>
+    </div>
+    <div class="menu-item">
+        <h3>50L</h3>
+        <p>$4.25</p>
+    </div>
+    <div class="menu-item">
+        <h3>Michelada</h3>
+        <p>$5.50</p>
+    </div>
+
+    <!-- Wine Selections -->
+    <div class="menu-item">
+        <h3>House Wine</h3>
+    </div>
+    <div class="menu-item">
+        <h3>Chardonnay</h3>
+        <p>$4.50 (By the glass)</p>
+    </div>
+    <div class="menu-item">
+        <h3>Cabernet Sauvignon</h3>
+        <p>$4.50 (By the glass)</p>
+    </div>
+    <div class="menu-item">
+        <h3>Merlot</h3>
+        <p>$4.50 (By the glass)</p>
+    </div>
+    <div class="menu-item">
+        <h3>White Zinfandel</h3>
+        <p>$4.50 (By the glass)</p>
+    </div>
+    <div class="menu-item">
+        <h3>Sangria</h3>
+        <p>$4.50 (By the glass)</p>
+    </div>
+    <div class="menu-item">
+        <h3>Rosé</h3>
+        <p>$4.50 (By the glass)</p>
+    </div>
+    <div class="menu-item">
+        <h3>1/2 Carafe</h3>
+        <p>$8.00</p>
+    </div>
+    <div class="menu-item">
+        <h3>Carafe</h3>
+        <p>$16.00</p>
+    </div>
+
+    <!-- Domestic Beers -->
+    <div class="menu-item">
+        <h3>Domestic Beers</h3>
+    </div>
+    <div class="menu-item">
+        <h3>Budweiser</h3>
+        <p>$3.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>Bud Light</h3>
+        <p>$3.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>Coors Lite</h3>
+        <p>$3.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>Michelob Ultra</h3>
+        <p>$3.95</p>
+    </div>
+    <div class="menu-item">
+        <h3>Miller Lite</h3>
+        <p>$3.95</p>
+    </div>
+
+    <!-- Other Beverages -->
+    <div class="menu-item">
+        <h3>Other Beverages</h3>
+    </div>
+    <div class="menu-item">
+        <h3>Soft Drinks (Pepsi Products)</h3>
+        <p>$2.99</p>
+    </div>
+    <div class="menu-item">
+        <h3>Coffee or Tea</h3>
+        <p>$2.99</p>
+    </div>
+    <div class="menu-item">
+        <h3>Horchata or Jamaica (No Refills)</h3>
+        <p>$2.99</p>
+    </div>
+
+</section>
+<section id="house-specialties" class="section">
+    <h2>House Specialties</h2>
+
+    <!-- Sizzling Fajitas -->
+    <div class="menu-item">
+        <h3><strong>Sizzling Fajitas</strong></h3>
+        <p>Your choice of beef steak, chicken, or shrimp marinated in a special selection of spices, grilled, and garnished with onions and green peppers. Served with guacamole, sour cream, pico de gallo, Mexican rice, and refried beans. Your choice of warm tortillas.</p>
+        <p><span>Beef:</span> $15.95 | <span>Chicken:</span> $14.95 | <span>Shrimp:</span> $15.95 | <span>Combination of 3 Meats:</span> $15.95</p>
+    </div>
+
+    <!-- Carnitas De Res -->
+    <div class="menu-item">
+        <h3><strong>Carnitas De Res</strong></h3>
+        <p>Tender pieces of top sirloin grilled with fresh green peppers, onions, spices, and our special sauce. Served with refried beans, Mexican rice, guacamole, sour cream, and your choice of warm tortillas.</p>
+    </div>
+
+    <!-- Steak A La Chicana -->
+    <div class="menu-item">
+        <h3><strong>Steak A La Chicana</strong></h3>
+        <p>Lean strips of top sirloin sautéed with tomatoes and onions, served with refried beans, Mexican rice, guacamole, sour cream, and your choice of warm tortillas.</p>
+    </div>
+
+    <!-- Carne Asada -->
+    <div class="menu-item">
+        <h3><strong>Carne Asada</strong></h3>
+        <p>Skirt steak butterflied and flame broiled to your liking. Served with refried beans, Mexican rice, guacamole, sour cream, and your choice of warm tortillas.</p>
+        <p><span>Price:</span> $20.95</p>
+    </div>
+
+    <!-- Steak Tampiquena -->
+    <div class="menu-item">
+        <h3><strong>Steak Tampiquena</strong></h3>
+        <p>Delicious broiled Azada steak served with a chicken mole sauce enchilada, guacamole, and your choice of warm tortillas (not served with rice).</p>
+        <p><span>Price:</span> $17.95</p>
+    </div>
+
+    <!-- Tacos al Carbon -->
+    <div class="menu-item">
+        <h3><strong>Tacos al Carbon</strong></h3>
+        <p>Corn tortillas drenched in a red sauce filled with skirt steak and pico de gallo. Served with rice, beans, and coleslaw.</p>
+        <p><span>Price:</span> $20.95</p>
+    </div>
+
+    <!-- Pollo (Chicken) Section -->
+    <h4><strong>Pollo (Chicken)</strong></h4>
+
+    <div class="menu-item">
+        <h3><strong>Arroz Con Pollo (Red Sauce)</strong></h3>
+        <p>Chicken breast specially prepared with mushrooms, onions, and green peppers, served on a bed of rice with melted Monterey Jack, smothered with our special mild sauce. Served with your choice of warm tortillas.</p>
+        <p><span>Price:</span> $15.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Chicken Mole</strong></h3>
+        <p>Our signature item! Braised skinless chicken breast in a sweet peanut butter-based sauce with a hint of chocolate. Served with your choice of warm tortillas (not served with beans).</p>
+        <p><span>Price:</span> $14.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Pollo a la Crema (Sour Cream Sauce)</strong></h3>
+        <p>Grilled chicken breast prepared with fresh mushrooms, onions, and green peppers, cooked in an authentic Mexican sour cream sauce and served on a bed of rice with Monterey Jack cheese. Served with your choice of warm tortillas (not served with beans).</p>
+        <p><span>Price:</span> $15.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Pollo Asado</strong></h3>
+        <p>Butterflied boneless and skinless chicken breast, broiled and placed in a special tomato sauce. Served with your choice of warm tortillas.</p>
+        <p><span>Price:</span> $14.95</p>
+    </div>
+
+    <!-- Marisco (Seafood) Section -->
+    <h3><strong>Marisco (Seafood)</strong></h3>
+
+    <div class="menu-item">
+        <h3><strong>Seafood Enchiladas</strong></h3>
+        <p>Two flour tortillas filled with shrimp, scallops, onions, tomatoes, cilantro, and spices, topped with Monterey Jack cheese, a fresh tomatillo sauce, and sour cream. Served with refried beans and Mexican rice.</p>
+        <p><span>Price:</span> $14.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Camarones Mexicanos (Red Sauce)</strong></h3>
+        <p>Shrimp sautéed in butter with mushrooms, onions, green peppers, and tomatoes, finished with fresh cilantro. Topped with melted Monterey Jack cheese and served with your choice of warm tortillas (not served with beans).</p>
+        <p><span>Price:</span> $15.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Camarones a la Crema (Sour Cream Sauce)</strong></h3>
+        <p>Tender shrimp prepared with fresh mushrooms, onions, and green peppers, cooked in an authentic Mexican sour cream sauce. Served on a bed of rice with melted Monterey Jack cheese, your choice of warm tortillas (not served with beans).</p>
+        <p><span>Price:</span> $15.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Camarones Al Mojo De Ajo</strong></h3>
+        <p>Garlic-flavored grilled shrimp, served on a bed of lettuce with sautéed onions, green peppers, and mushrooms. Includes rice, beans, coleslaw, and tortillas.</p>
+        <p><span>Price:</span> $15.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Mexican Shrimp Cocktail</strong></h3>
+        <p>Shrimp boiled in a special seafood broth, finished with avocados, tomatoes, onions, cilantro, and lime. Served hot, cold, or warm.</p>
+        <p><span>Large Serving:</span> $13.95 | <span>Small Serving:</span> $11.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Shrimp Burrito</strong></h3>
+        <p>Shrimp grilled with mushrooms and spices, wrapped in a flour tortilla and topped with Monterey Jack cheese and "tomatillo" sauce. Served with refried beans and Mexican rice.</p>
+        <p><span>Price:</span> $13.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Fish Tacos</strong></h3>
+        <p>Three soft corn tortillas filled with sautéed fish, homemade dressing, and pico de gallo. Served with rice, beans, and coleslaw.</p>
+        <p><span>Price:</span> $15.05</p>
+    </div>
+</section>
+<section id="appetizers" class="section">
+    <h2>Appetizers</h2>
+    
+    <div class="menu-item">
+        <h3><strong>Super Nachos with Carne Asada</strong></h3>
+        <p>Chips, beans, cheddar cheese, topped with guacamole, sour cream, onions, and tomatoes.</p>
+        <p><span>Price:</span> $13.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Quesadilla Fajita</strong></h3>
+        <p>Large flour tortilla filled with meat (fajita chicken or steak), sautéed onions, green peppers, and cheddar cheese. Topped with guacamole, sour cream, lettuce, tomato, and onion.</p>
+        <p><span>Price:</span> $11.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Quesadilla</strong></h3>
+        <p>Large flour tortilla filled with cheddar cheese. Topped with guacamole, sour cream, lettuce, tomato, and onion. (Choice of meat: chicken, beef, or chorizo.)</p>
+        <p><span>Price:</span> $10.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Quesadilla Carne Asada</strong></h3>
+        <p>Large flour tortilla filled with skirt steak and cheddar cheese. Topped with guacamole, sour cream, lettuce, tomato, and onion.</p>
+        <p><span>Price:</span> $13.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Shrimp and Mushroom</strong></h3>
+        <p>Shrimp sautéed in butter with mushrooms and special spices.</p>
+        <p><span>Price (1/2 Pound):</span> $11.95</p>
+        <p><span>Price (Full Pound):</span> $20.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Super Nachos</strong></h3>
+        <p>Chips, beans, meat (chicken, ground beef, or shredded beef), and cheddar cheese. Topped with guacamole, sour cream, tomato, and onion.</p>
+        <p><span>Price:</span> $10.95</p>
+    </div>
+</section>
+
+<section id="tacos" class="section">
+    <h2>Tacos</h2>
+
+    <div class="menu-item">
+        <h3><strong>Taco Picadillo</strong></h3>
+        <p>Shredded beef, lettuce, and cheese in a flour tortilla.</p>
+        <p><span>Price:</span> $4.00</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Taco Fajita Steak</strong></h3>
+        <p>Flour tortilla with lettuce and cheese.</p>
+        <p><span>Price:</span> $5.00</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Taco Fajita Chicken</strong></h3>
+        <p>Flour tortilla with lettuce and cheese.</p>
+        <p><span>Price:</span> $5.00</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Taco Carne Asada</strong></h3>
+        <p>Corn tortilla with onions and cilantro.</p>
+        <p><span>Price:</span> $5.50</p>
+    </div>
+</section>
+
+<section id="soups" class="section">
+    <h2>Soups</h2>
+
+    <div class="menu-item">
+        <h3><strong>Sopa De Albondigas</strong></h3>
+        <p>A delicious Mexican soup made with fresh minted pork meatballs and seasonal vegetables in clear broth. Served with diced onions, cilantro, and your choice of warm tortillas. A meal in itself!</p>
+        <p><span>Price:</span> $10.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Sopa De Pollo</strong></h3>
+        <p>Chicken soup made with fresh chicken, vegetables, and herbs in a flavorful broth.</p>
+        <p><span>Price:</span> $10.95</p>
+    </div>
+</section>
+
+<section id="burritos" class="section">
+    <h2>Burritos</h2>
+
+    <div class="menu-item">
+        <h3><strong>Deluxe Burrito</strong></h3>
+        <p>A large flour tortilla filled with your choice of meat (chicken, ground beef, or shredded beef), smothered in red tomato sauce. Topped with baked cheddar cheese, lettuce, guacamole, sour cream, tomato, and onion.</p>
+        <p><span>Price:</span> $9.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Expresso Burrito</strong></h3>
+        <p>A large flour tortilla filled with rice, beans, cheddar cheese, and your choice of meat (chicken, ground beef, or shredded beef). Smothered in red sauce, topped with tomato, onion, and guacamole.</p>
+        <p><span>Price:</span> $9.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Expresso Vegetarian Burrito</strong></h3>
+        <p>A large flour tortilla filled with rice, beans, lettuce, and cheddar cheese. Smothered in red sauce, topped with tomato, onion, and guacamole.</p>
+        <p><span>Price:</span> $8.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Burrito Carne Asada</strong></h3>
+        <p>A large flour tortilla filled with rice, beans, and skirt steak, smothered in red sauce.</p>
+        <p><span>Price:</span> $13.95</p>
+    </div>
+</section>
+
+<section id="childs-plate" class="section">
+    <h2>Child's Plate (For amigos 12 and under)</h2>
+
+    <div class="menu-item">
+        <h3><strong>Child's Plate</strong></h3>
+        <p>Your choice of a taco, enchilada, tostada, burrito, quesadilla, or grilled cheese. Served with rice and beans, includes a beverage.</p>
+        <p><span>Price:</span> $6.95</p>
+    </div>
+</section>
+
+<section id="fresh-healthy" class="section">
+    <h2>Fresh & Healthy Choices</h2>
+
+    <div class="menu-item">
+        <h3><strong>Pollo Azado Burrito</strong></h3>
+        <p>Large flour tortilla stuffed with broiled chicken, grilled vegetables, rice, and whole black beans. Topped with our special verde sauce and pico de gallo. Add sour cream for 50c.</p>
+        <p><span>Price:</span> $10.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Garden Fresco Burrito</strong></h3>
+        <p>Lightly sautéed, fresh seasonal vegetables, rice, whole black beans wrapped in a flour tortilla. Topped with a zesty burrito sauce and salad greens.</p>
+        <p><span>Price:</span> $8.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Mexican Shrimp Caesar Salad</strong></h3>
+        <p>Traditional Caesar salad topped with shrimp, whole black beans, and seasoned croutons.</p>
+        <p><span>Price:</span> $10.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Charbroiled Chicken Caesar Salad</strong></h3>
+        <p>White meat breast-only chicken strips charbroiled and served atop our unique Caesar salad with seasoned croutons.</p>
+        <p><span>Price:</span> $10.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Pollo a la Parrilla Ensalada</strong></h3>
+        <p>Served in a crispy flour shell topped with broiled chicken, lettuce, black beans, sour cream, and avocado slices.</p>
+        <p><span>Price:</span> $10.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Mucho Flaco Burrito</strong></h3>
+        <p>A large flour tortilla with whole black beans, Spanish rice, carrots, onions, cilantro, lettuce, and covered with our famous burrito sauce.</p>
+        <p><span>Price:</span> $8.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Veggie Enchiladas</strong></h3>
+        <p>Two corn tortillas stuffed with sautéed mushrooms, carrots, broccoli, green peas, and topped with our own carrot puree. Served with rice and black beans.</p>
+        <p><span>Price:</span> $9.95</p>
+    </div>
+</section>
+
+<section id="desserts" class="section">
+    <h2>Desserts</h2>
+
+    <div class="menu-item">
+        <h3><strong>Chimichanga Manzana</strong></h3>
+        <p>Apples, cinnamon, and spices stuffed in a flour tortilla, lightly fried and served with a scoop of vanilla ice cream, accompanied by freshly whipped cream and covered with caramel sauce.</p>
+        <p><span>Price:</span> $5.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Deep-Fried Ice Cream</strong></h3>
+        <p>Vanilla ice cream in a crisp cinnamon crumb coating and topped with strawberry sauce, honey, and whipped cream.</p>
+        <p><span>Price:</span> $5.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Sopapillas</strong></h3>
+        <p>A crispy, honey-coated flour tortilla topped with sugar and cinnamon.</p>
+        <p><span>Price:</span> $4.95</p>
+    </div>
+
+    <div class="menu-item">
+        <h3><strong>Flan</strong></h3>
+        <p>A light Mexican egg custard glazed with a hint of caramel, garnished with whipped cream.</p>
+        <p><span>Price:</span> $4.95</p>
+    </div>
+</section>
+
+<section id="order" class="section">
+    <h2>Order Online</h2>
+    <p>Contact us to place your order today!</p>
+    <a href="tel:+15152226933" target="_blank" style="display: inline-block; padding: 0.5rem 1rem; background-color: #d9534f; color: #fff; text-decoration: none; border-radius: 4px;">Call Now</a>
+</section>
+
+<section id="reviews" class="section">
+    <h2>Reviews</h2>
+    <p>Click the button below to visit Mi Mexico's Yelp page:</p>
+    <a href="https://www.yelp.com/biz/mi-mexico-clive?utm_campaign=search_listing&utm_medium=partnership&utm_source=yahoo" target="_blank" style="display: inline-block; padding: 0.5rem 1rem; background-color: #d9534f; color: #fff; text-decoration: none; border-radius: 4px;">Visit Mi Mexico on Yelp</a>
+
+</section>
+</div>
+
+
+
+
+
+<footer>
+    <p>&copy; 2024 Mi Mexico - All rights reserved</p>
+</footer>
+</body>
+</html>
+
+
