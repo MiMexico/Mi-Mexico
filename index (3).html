@@ -67,7 +67,7 @@
 <body>
     <header>
         <h1>Mi Mexico</h1>
-        <p>Family-Owned Mexican Restaurant</p>
+        <p>Family-Owned Mexican Restaurant (Clive, Iowa)</p>
     </header>
     <nav>
         <a href="#about">About</a>
@@ -82,7 +82,7 @@
     <div class="container">
         <section id="about" class="section">
             <h2>About Us</h2>
-            <p>Welcome to Mi Mexico, a family-owned restaurant, located in Clive, Iowa.</p>
+            <p>Welcome to Mi Mexico, a family-owned restaurant, located in 11407 Forest Ave, Clive, IA 50325.</p>
         </section>
 
 
@@ -290,11 +290,8 @@
         <p>$5.95</p>
     </div>
     <div class="menu-item">
-        <h3>Strawberry Banana Blackberry Flavored Margaritas</h3>
-        <p>$7.95</p>
-    </div>
-    <div class="menu-item">
-        <h3>Watermelon Mango Peach Kiwi Coconut Raspberry Margarita</h3>
+        <h2>Flavored Margaritas</h2>
+        <h3>Strawberry, Banana, Blackberry, Watermelon, Mango, Peach, Kiwi, Coconut, Raspberry</h3>
         <p>$7.95</p>
     </div>
     <div class="menu-item">
@@ -428,7 +425,7 @@
         <p>$4.25</p>
     </div>
     <div class="menu-item">
-        <h3>50L</h3>
+        <h3>SOL</h3>
         <p>$4.25</p>
     </div>
     <div class="menu-item">
@@ -570,7 +567,7 @@
 
     <div class="menu-item">
         <h3><strong>Chicken Mole</strong></h3>
-        <p>Our signature item! Braised skinless chicken breast in a sweet peanut butter-based sauce with a hint of chocolate. Served with your choice of warm tortillas (not served with beans).</p>
+        <p>Our signature item! Braised skinless chicken breast in a sweet peanut butter-based sauce with a hint of chocolate. Served with your choice of warm tortillas (served with beans).</p>
         <p><span>Price:</span> $14.95</p>
     </div>
 
@@ -838,8 +835,12 @@
     <h2>Reviews</h2>
     <p>Click the button below to visit Mi Mexico's Yelp page:</p>
     <a href="https://www.yelp.com/biz/mi-mexico-clive?utm_campaign=search_listing&utm_medium=partnership&utm_source=yahoo" target="_blank" style="display: inline-block; padding: 0.5rem 1rem; background-color: #d9534f; color: #fff; text-decoration: none; border-radius: 4px;">Visit Mi Mexico on Yelp</a>
-
 </section>
+
+
+<h1 style="color: white;">_________________</h1>
+<p style="color: white;">_________________________</p>
+
 </div>
 
 
@@ -851,5 +852,95 @@
 </footer>
 </body>
 </html>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 200px; /* Sidebar width */
+        height: 100%;
+        background-color: #d9534f;
+        padding: 2rem;
+        border-left: 2px solid #ccc;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .sidebar h3 {
+        text-align: center;
+        color: #fff;
+    }
+
+    .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .sidebar ul li {
+        margin-bottom: 1rem;
+    }
+
+    .sidebar ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .sidebar.hidden {
+        transform: translateX(100%); /* Moves the sidebar off-screen */
+    }
+
+    .toggle-btn {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        padding: 1rem;
+        background-color: #d9534f;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        z-index: 10; /* Ensures the button is above other elements */
+    }
+</style>
+</head>
+<body>
+
+    <!-- Button to toggle sidebar -->
+    <button class="toggle-btn" onclick="toggleSidebar()">Hide Sidebar</button>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h3>Sidebar</h3>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#drinks">Drinks</a></li>
+            <li><a href="#house-specialties">House Specialties</a></li>
+            <li><a href="#fresh-healthy">Fresh and Healthy</a></li>
+            <li><a href="#desserts">Desserts</a></li>
+            <li><a href="#order">Order Online</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.classList.toggle('hidden'); // This toggles the 'hidden' class on the sidebar
+        }
+    </script>
+</body>
+<button class="toggle-btn" onclick="toggleSidebar()">Toggle Sidebar</button>
+
+
+
 
 
